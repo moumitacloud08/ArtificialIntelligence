@@ -32,7 +32,7 @@ class ResearchManager:
             f"Query: {query}"
          )
          print(f"Will perform {len(result.final_output.searches)} searches")
-         return result.final_output(WebSearchPlan)
+         return result.final_output_as(WebSearchPlan)
 
     
     async def perform_searches(self, search_plan: WebSearchPlan) -> list[str]:
