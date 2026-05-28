@@ -1,3 +1,39 @@
-agents/ 
-botagents/.env 
+# Python virtual environments
 venv/
+.venv/
+
+# Environment files
+.env
+**/.env
+
+# Agent folders
+agents/
+botagents/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build/dist
+build/
+dist/
+*.egg-info/
+
+# Git
+.git/
