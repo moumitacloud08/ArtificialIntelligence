@@ -6,9 +6,6 @@ venv/
 .env
 **/.env
 
-# Agent folders
-agents/
-botagents/
 
 # Python cache
 __pycache__/
